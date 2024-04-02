@@ -23,18 +23,6 @@ const FrameComponent: FunctionComponent = () => {
                 src="/eyeopen-1.svg"
               />
             </div>
-            <div className={styles.inputField2}>
-              <input
-                className={styles.confirmPassword}
-                placeholder="Confirm Password"
-                type="text"
-              />
-              <img
-                className={styles.eyeOpen1Icon1}
-                alt=""
-                src="/eyeopen-1.svg"
-              />
-            </div>
           </div>
           <div className={styles.remember}>
             <input className={styles.checkbox} type="checkbox" />
