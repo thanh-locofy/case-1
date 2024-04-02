@@ -1,0 +1,189 @@
+.subscribeOurNewsletterChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke-100);
+}
+.subcribeOurNewsletter {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 150%;
+  font-weight: 600;
+  font-family: inherit;
+}
+.pellentesqueEuNibh {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-small-body-small-400-size);
+  line-height: 150%;
+  color: var(--gray-scale-gray-400);
+}
+.subcribeOurNewsletterParent {
+  width: 448px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  max-width: 100%;
+  z-index: 1;
+}
+.yourEmailAddress {
+  width: 400px;
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: calc(100% - 0px);
+}
+.inputField {
+  flex: 1;
+  border-radius: var(--br-27xl);
+  background-color: var(--gray-scale-white);
+  border: 1px solid var(--gray-scale-gray-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-5xl);
+  white-space: nowrap;
+  max-width: 100%;
+}
+.subscribe1 {
+  position: relative;
+  font-size: var(--body-medium-body-medium-500-size);
+  line-height: 20px;
+  font-weight: 600;
+  font-family: var(--body-small-body-small-400);
+  color: var(--gray-scale-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 82px;
+}
+.button,
+.subscribe {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-21xl);
+  background-color: var(--branding-success);
+  border-radius: var(--br-24xl);
+  margin-left: -118px;
+}
+.button:hover {
+  background-color: var(--color-limegreen-100);
+}
+.subscribe {
+  flex: 1;
+  max-width: 100%;
+}
+.socialMediaIcon,
+.socialMediaIcon1,
+.socialMediaIcon2,
+.socialMediaIcon3 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  min-height: 40px;
+}
+.socialMediaIcon1,
+.socialMediaIcon2,
+.socialMediaIcon3 {
+  border-radius: var(--br-481xl);
+}
+.socialMediaParent {
+  height: 40px;
+  flex-direction: row;
+  gap: var(--gap-5xs);
+  z-index: 1;
+}
+.frameWrapper,
+.socialMediaParent,
+.subscribeParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  flex-direction: column;
+  padding: var(--padding-7xs) 0 0;
+}
+.subscribeParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+}
+.subscribeOurNewsletter,
+.subscribeOurNewsletterInner {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.subscribeOurNewsletterInner {
+  width: 760px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0 0;
+  font-size: var(--body-medium-body-medium-500-size);
+  color: var(--gray-scale-gray-500);
+}
+.subscribeOurNewsletter {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-21xl) var(--padding-281xl);
+  position: relative;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--body-xxl-body-xxl-600-size);
+  color: var(--gray-scale-gray-900);
+  font-family: var(--body-small-body-small-400);
+}
+@media screen and (max-width: 1825px) {
+  .subscribeOurNewsletter {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .subscribe {
+    min-width: 100%;
+  }
+  .subscribeOurNewsletter {
+    padding-left: var(--padding-131xl);
+    padding-right: var(--padding-131xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .subscribeParent {
+    flex-wrap: wrap;
+    gap: 40px 20px;
+  }
+  .subscribeOurNewsletter {
+    padding-left: var(--padding-56xl);
+    padding-right: var(--padding-56xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .subcribeOurNewsletter {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+}
