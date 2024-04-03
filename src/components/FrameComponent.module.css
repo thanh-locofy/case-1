@@ -64,54 +64,15 @@
   overflow: hidden;
   flex-shrink: 0;
 }
+.field1,
 .inputField1 {
   align-self: stretch;
   flex: 1;
-  border-radius: var(--br-7xs);
-  background-color: var(--gray-scale-white);
-  border: 1px solid var(--gray-scale-gray-100);
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  padding: var(--padding-sm) var(--padding-mini);
-  max-width: 100%;
-}
-.confirmPassword {
-  width: calc(100% - 50px);
-  border: 0;
-  outline: 0;
-  font-family: var(--body-small-body-small-400);
-  font-size: var(--body-medium-body-medium-500-size);
-  background-color: transparent;
-  height: 21px;
-  flex: 1;
-  position: relative;
-  line-height: 130%;
-  color: var(--gray-scale-gray-400);
-  text-align: left;
-  display: inline-block;
-  min-width: 150px;
-  max-width: calc(100% - 20px);
-  padding: 0;
-}
-.eyeOpen1Icon1 {
-  height: 20px;
-  width: 20px;
-  position: relative;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.field1,
-.inputField2 {
-  align-self: stretch;
-  flex: 1;
   display: flex;
   justify-content: flex-start;
   max-width: 100%;
 }
-.inputField2 {
+.inputField1 {
   border-radius: var(--br-7xs);
   background-color: var(--gray-scale-white);
   border: 1px solid var(--gray-scale-gray-100);
@@ -224,19 +185,15 @@
   gap: var(--gap-xl);
 }
 .createAccountWrapper {
-  height: 512px;
+  flex: 1;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0 var(--padding-xl) var(--padding-61xl);
+  padding: 0 var(--padding-xl);
 }
 @media screen and (max-width: 925px) {
   .createAccount1 {
     font-size: var(--font-size-7xl);
     line-height: 31px;
-  }
-  .createAccountWrapper {
-    padding-bottom: var(--padding-33xl);
-    box-sizing: border-box;
   }
 }
 @media screen and (max-width: 450px) {
