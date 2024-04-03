@@ -42,7 +42,7 @@ const NavLinks: FunctionComponent = () => {
           <img
             className={styles.chevronDownIcon4}
             alt=""
-            src="/chevron-down.svg"
+            src="/chevron-down1.svg"
           />
         </div>
         <div className={styles.navLinks7}>
@@ -50,7 +50,7 @@ const NavLinks: FunctionComponent = () => {
           <img
             className={styles.chevronDownIcon5}
             alt=""
-            src="/chevron-down.svg"
+            src="/chevron-down1.svg"
           />
         </div>
       </div>
